@@ -1,0 +1,27 @@
+<html>
+<head>
+       <title>Lyrics Scroller</title>
+	   
+	   <script src="jquery.min.js"></script>
+	   <script src="popup.js"></script>
+</head>
+<body>
+	<!--Speed<input type="text" value="20000" id="speed"/><hr/>-->
+	
+	<label for="speed">Choose a scroll speed</label>
+
+	<select name="speed" id="speed">
+	  <option value="600000">Slowest</option>
+	  <option value="400000">Slower</option>
+	  <option value="200000">Slow</option>
+	  <option value="100000">Mid</option>
+	  <option value="50000">Fast</option>
+	  <option value="20000">Faster</option>
+	  <option value="1000">Fastest</option>
+	</select>
+	<hr/>
+    <center><button type="button" id="scrollnow">Double click here to start scroll</button></center>
+	<hr/>
+	<center><span="font-size: 8px;">Refresh the page to reset scrolling</font></center>
+</body>
+</html>
